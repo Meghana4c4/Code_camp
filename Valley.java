@@ -5,7 +5,7 @@ public class Valley
 public static void main(String[] args)
 {
 Scanner s=new Scanner(System.in);
-System.out.println("enter size: ");
+System.out.println("Enter size: ");
 int n=s.nextInt();
 int[ ] elements =new int[n];
 System.out.println("Enter "+n+" Elements: ");
@@ -15,7 +15,7 @@ elements[i]=s.nextInt();
 }
 if(n==0)
 {
-System.out.println("false");
+System.out.println("False");
 return;
 }
 int i=1;
@@ -32,7 +32,7 @@ break;
 }
 if((i==n)||(i==1))
 {
-System.out.println("false");
+System.out.println("False");
 return;
 }
 while(i<n)
@@ -48,10 +48,10 @@ break;
 }
 if(i<n)
 {
-System.out.println("false");
+System.out.println("False");
 return;
 }
-System.out.println("true");
+System.out.println("True");
 }
 }
 
