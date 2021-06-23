@@ -8,7 +8,7 @@ Scanner s=new Scanner(System.in);
 System.out.println("enter size: ");
 int n=s.nextInt();
 int[ ] elements =new int[n];
-System.out.println("Enter "+n+"Elements: ");
+System.out.println("Enter "+n+" Elements: ");
 for(int i=0;i<n;i++)
 {
 elements[i]=s.nextInt();
